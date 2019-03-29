@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       // len is a validation that checks that our todo is between 1 and 140 characters
       validate: {
-        len: [1, 10]
+        len: [1, 140]
       }
     },
     complete: {
